@@ -128,12 +128,12 @@ PokemonTypeEffectivenessConsoleApp/
 │   └── PokeApiService.cs
 ├── Program.cs
 ├── PokemonTypeEffectivenessConsoleApp.csproj
-└── README.md
+└── README.md       # You're here!
 
 PokemonTypeEffectivenessConsoleAppTests/
 ├── PokeApiServiceTests.cs
 └── PokemonTypeEffectivenessConsoleAppTests.csproj
-├── README.md                  # You're here!
+
 ```
 
 ### Contact
