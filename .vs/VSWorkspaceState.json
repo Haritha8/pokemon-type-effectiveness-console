@@ -3,8 +3,9 @@
     "",
     "\\PokemonTypeEffectivenessConsoleApp",
     "\\PokemonTypeEffectivenessConsoleApp.Tests",
-    "\\PokemonTypeEffectivenessConsoleAppTests"
+    "\\PokemonTypeEffectivenessConsoleAppTests",
+    "\\PokemonTypeEffectivenessConsoleApp\\Models"
   ],
-  "SelectedNode": "\\PokemonTypeEffectivenessConsoleAppTests\\PokeApiServiceTests.cs",
+  "SelectedNode": "\\PokemonTypeEffectivenessConsoleApp\\Models\\PokemonTypeModel.cs",
   "PreviewInSolutionExplorer": false
 }
