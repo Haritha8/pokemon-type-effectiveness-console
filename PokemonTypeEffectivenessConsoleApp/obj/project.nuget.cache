@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zUCGvilpfcw5qARgv9dK9tYpLGoWEJ7kRl0R7C9Zcuc9VM7Yj7LH8L6Pq4uGnohfUmbYVGfVwDHXVfyLHTAYIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\harit\\Desktop\\Haritha_Personal\\Stuller_Assessment\\PokemonTypeEffectivenessConsoleApp\\PokemonTypeEffectivenessConsoleApp\\PokemonTypeEffectivenessConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harit\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\harit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\harit\\.nuget\\packages\\system.net.http.json\\8.0.1\\system.net.http.json.8.0.1.nupkg.sha512",
+    "C:\\Users\\harit\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\harit\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\harit\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
