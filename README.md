@@ -49,8 +49,8 @@ Ensure you have the following installed:
 
 1. Start the application by running:
 
-        ```sh
-	dotnet run --project PokemonTypeEffectivenessConsoleApp
+ ```sh
+ dotnet run --project PokemonTypeEffectivenessConsoleApp
 
 2. Follow the on-screen instructions:
 
