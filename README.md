@@ -7,18 +7,20 @@ Welcome to the **Pokemon Type Effectiveness Console App**! This is a console app
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Environment Variables](#environment-variables)
 - [Usage](#usage)
 - [Error Handling](#error-handling)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Project Structure](#project-structure)
 
-
 ## Features
 
 - Retrieve and display type effectiveness information for a given Pokémon.
 - Handles and displays error messages for invalid inputs or connectivity issues.
-- User-friendly console prompts to ensure valid inputs.
+- User-friendly console prompts to ensure valid inputs.chips.
+- **Copy URL to Clipboard**: Click a button to copy a GIF URL for easy sharing.
+- **Responsive Design**: Suitable for both desktop and mobile use.
 
 ## Prerequisites
 
@@ -29,34 +31,44 @@ Ensure you have the following installed:
 
 ## Installation
 
-1. Clone the repository:
+1. To get started, clone the repository and install the required dependencies.
 
-   ```sh
-   git clone https://github.com/Haritha8/pokemon-type-effectiveness-console.git
+```sh
+git clone https://github.com/Haritha8/pokemon-type-effectiveness-console.git
+```
 
 2. Navigate to the project directory:
 
-   ```sh
-   cd PokemonTypeEffectivenessConsoleApp
+```sh
+cd PokemonTypeEffectivenessConsoleApp
+```
 
 3. Restore dependencies:
 
-   ```sh
-   dotnet restore
+```sh
+  dotnet restore
+```
 
+## Environment Variables
 
-## Usage:
+The application utilizes PokéAPI
+
+You can get this at (https://pokeapi.co/).
+
+## Usage
 
 1. Start the application by running:
 
- ```sh
- dotnet run --project PokemonTypeEffectivenessConsoleApp
+```sh
+dotnet run --project PokemonTypeEffectivenessConsoleApp
+```
 
-2. Follow the on-screen instructions:
+2. Once started, Follow the on-screen instructions:
 
 ```sh
 Enter a Pokémon name (e.g., pikachu) to see type effectiveness details.
 Type exit to quit the application.
+```
 
 3. Output example:
 
@@ -75,36 +87,36 @@ Weak Against:
 - No Damage To: Ground
 - Half Damage To: Electric, Grass
 - Double Damage From: Ground
+```
 
-## Error Handling
-The application handles the following scenarios:
+## **Error Handling**:
 
-- **Empty Input**: Prompts the user to enter a valid name.
-- **Invalid Characters**: Prompts the user to enter only alphabetic characters (e.g., no numbers).
-- **Network Issues**: Displays a message if there’s an issue reaching the API.
-- **Timeout**: If the API request times out, an appropriate message is displayed.
-- **Invalid Pokémon Name**: If the Pokémon is not found, the user is notified.
+The application handles the following scenarios: -**Empty Input**: Prompts the user to enter a valid name. -**Invalid Characters**: Prompts the user to enter only alphabetic characters (e.g., no numbers). -**Network Issues**: Displays a message if there’s an issue reaching the API. -**Timeout**: If the API request times out, an appropriate message is displayed. -**Invalid Pokémon Name**: If the Pokémon is not found, the user is notified.
+
+- Other errors, such as connectivity issues, are also handled to ensure a smooth user experience.
 
 ## Technologies Used
-- **.NET Core 6.0**: Framework for building the console application.
-- **HttpClient**: For making HTTP requests to the PokéAPI.
-- **Dependency Injection**: Manages dependencies for HttpClient and PokeApiService.
-- **xUnit**: For unit testing.
+
+- **.NET Core 6.0** - Framework for building the console application.
+- **HttpClient** - For making HTTP requests to the PokéAPI.
+- **Dependency Injection** - Manages dependencies for HttpClient and PokeApiService.
+- **xUnit** - For unit testing.
 
 ## Testing
 
 To run unit tests, navigate to the PokemonTypeEffectivenessConsoleAppTests directory and use the following command:
 
- ```sh
+```sh
 dotnet test
+```
 
 The tests cover various scenarios such as:
 
--Valid Pokémon names returning type data.
--Invalid Pokémon names (404 errors).
--Network issues, including timeouts and server errors.
+- Valid Pokémon names returning type data.
+- Invalid Pokémon names (404 errors).
+- Network issues, including timeouts and server errors.
 
-## Project Structure:
+## Folder Structure
 
 ```plaintext
 PokemonTypeEffectivenessConsoleApp/
@@ -121,12 +133,7 @@ PokemonTypeEffectivenessConsoleApp/
 PokemonTypeEffectivenessConsoleAppTests/
 ├── PokeApiServiceTests.cs
 └── PokemonTypeEffectivenessConsoleAppTests.csproj
+├── README.md                  # You're here!
 ```
 
-## Explanation of Key Files
-- **Program.cs**: Main entry point of the console application. Handles user interaction and input validation.
-- **PokeApiService.cs**: Service that interacts with the PokéAPI to retrieve type data for the given Pokémon name.
-- **Models**: Contains models for DamageTypeModel, PokemonTypeModel, and TypeRelationsModel used to parse and display Pokémon type data.
-- **Tests**: Unit tests for PokeApiService covering different scenarios to ensure robustness.
-
-Happy exploring Pokémon type effectiveness!
+Happy exploring Pokémon type effectiveness! 🎉
