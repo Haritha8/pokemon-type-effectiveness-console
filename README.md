@@ -18,9 +18,7 @@ Welcome to the **Pokemon Type Effectiveness Console App**! This is a console app
 
 - Retrieve and display type effectiveness information for a given Pokémon.
 - Handles and displays error messages for invalid inputs or connectivity issues.
-- User-friendly console prompts to ensure valid inputs.chips.
-- **Copy URL to Clipboard**: Click a button to copy a GIF URL for easy sharing.
-- **Responsive Design**: Suitable for both desktop and mobile use.
+- User-friendly console prompts to ensure valid inputs.
 
 ## Prerequisites
 
@@ -51,9 +49,7 @@ cd PokemonTypeEffectivenessConsoleApp
 
 ## Environment Variables
 
-The application utilizes PokéAPI
-
-You can get this at (https://pokeapi.co/).
+The application utilizes PokéAPI which is available at (https://pokeapi.co/).
 
 ## Usage
 
@@ -91,9 +87,13 @@ Weak Against:
 
 ## **Error Handling**:
 
-The application handles the following scenarios: -**Empty Input**: Prompts the user to enter a valid name. -**Invalid Characters**: Prompts the user to enter only alphabetic characters (e.g., no numbers). -**Network Issues**: Displays a message if there’s an issue reaching the API. -**Timeout**: If the API request times out, an appropriate message is displayed. -**Invalid Pokémon Name**: If the Pokémon is not found, the user is notified.
+The application handles the following scenarios:
 
-- Other errors, such as connectivity issues, are also handled to ensure a smooth user experience.
+- **Empty Input**: Prompts the user to enter a valid name.
+- **Invalid Characters**: Prompts the user to enter only alphabetic characters (e.g., no numbers).
+- **Network Issues**: Displays a message if there’s an issue reaching the API.
+- **Timeout**: If the API request times out, an appropriate message is displayed.
+- **Invalid Pokémon Name**: If the Pokémon is not found, the user is notified.
 
 ## Technologies Used
 
@@ -135,5 +135,9 @@ PokemonTypeEffectivenessConsoleAppTests/
 └── PokemonTypeEffectivenessConsoleAppTests.csproj
 ├── README.md                  # You're here!
 ```
+
+### Contact
+
+For any questions or support, please open an issue on the repository.
 
 Happy exploring Pokémon type effectiveness! 🎉
